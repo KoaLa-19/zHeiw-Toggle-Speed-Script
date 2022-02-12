@@ -1,0 +1,25 @@
+local userInputService = game:GetService("UserInputService")
+toggle = 1
+
+userInputService.InputBegan:Connect(function(input , gameProcessedEvent)
+	
+
+	if input.UserInputType == Enum.UserInputType.Keyboard then
+		
+		if input.KeyCode == Enum.KeyCode.End then
+			
+			if toggle == 1 then
+				
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+				toggle = 0
+			else
+				
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+				toggle = 1
+			end
+			
+		end
+		
+	end
+	
+end)
