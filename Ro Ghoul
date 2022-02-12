@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KoaLa-19/zHeiw-Toggle-Speed-Script/main/Dash%20Boost", true))()
