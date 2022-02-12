@@ -1,4 +1,4 @@
-# zHeiw-Toggle-Speed-Script
+## zHeiw-Toggle-Speed-Script
 
 local userInputService = game:GetService("UserInputService")
 toggle = 1
