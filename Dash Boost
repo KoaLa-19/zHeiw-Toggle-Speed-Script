@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KoaLa-19/zHeiw-Toggle-Speed-Script/main/D%20Boost", true))()
